@@ -1,7 +1,7 @@
 # host-id
 a tool to attempt host prediction (analogous to barcoding) using NGS data
 
-# NOTE: AS OF 2024 THIS IS INCREDIBLY DIFFICULT TO SETUP DUE TO REQUIRING A SPECIFIC VERSION OF CONDA TO INSTALL CERTAIN DEPENDENCIES
+# NOTE: AS OF 2024 THIS IS INCREDIBLY DIFFICULT TO SETUP DUE TO REQUIRING A SPECIFIC VERSION OF CONDA TO INSTALL CERTAIN DEPENDENCIES, I RECOMMEND NOT TRYING. SORRY :-(
 
 
 > created 10/07/23 by Dan Maskell (daniel.maskell@APHA.gov.uk) as part of the GAP-DC-II Project. This tool uses getorganelle (https://github.com/Kinggerm/GetOrganelle) to quickly extract any host mitogenomes located in WGS reads. MitoZ (https://github.com/linzhi2013/MitoZ) is then used to annotate and visualise the produced mitogenome. getOrganelle is faster, easier to use, and more memory efficient than mitoZ - but lacks annotation/visualisation tools. Should getOrganelle incorporate such features, this tool would become defunct.
